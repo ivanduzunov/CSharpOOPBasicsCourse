@@ -1,0 +1,6 @@
+c:\users\mihail\documents\visual studio 2017\Projects\DefiningClasses\StartUp\bin\Debug\StartUp.exe.config
+c:\users\mihail\documents\visual studio 2017\Projects\DefiningClasses\StartUp\bin\Debug\StartUp.exe
+c:\users\mihail\documents\visual studio 2017\Projects\DefiningClasses\StartUp\bin\Debug\StartUp.pdb
+c:\users\mihail\documents\visual studio 2017\Projects\DefiningClasses\StartUp\obj\Debug\StartUp.csprojResolveAssemblyReference.cache
+c:\users\mihail\documents\visual studio 2017\Projects\DefiningClasses\StartUp\obj\Debug\StartUp.exe
+c:\users\mihail\documents\visual studio 2017\Projects\DefiningClasses\StartUp\obj\Debug\StartUp.pdb
