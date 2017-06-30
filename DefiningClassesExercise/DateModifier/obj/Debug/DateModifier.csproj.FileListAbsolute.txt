@@ -1,0 +1,6 @@
+c:\users\mihail\documents\visual studio 2017\Projects\DefiningClassesExercise\DateModifier\bin\Debug\DateModifier.exe.config
+c:\users\mihail\documents\visual studio 2017\Projects\DefiningClassesExercise\DateModifier\bin\Debug\DateModifier.exe
+c:\users\mihail\documents\visual studio 2017\Projects\DefiningClassesExercise\DateModifier\bin\Debug\DateModifier.pdb
+c:\users\mihail\documents\visual studio 2017\Projects\DefiningClassesExercise\DateModifier\obj\Debug\DateModifier.csprojResolveAssemblyReference.cache
+c:\users\mihail\documents\visual studio 2017\Projects\DefiningClassesExercise\DateModifier\obj\Debug\DateModifier.exe
+c:\users\mihail\documents\visual studio 2017\Projects\DefiningClassesExercise\DateModifier\obj\Debug\DateModifier.pdb

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person", "DefiningClasses\Person.csproj", "{E78418F4-C914-4BBC-A4D7-9D9AB27BE649}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oldest Family Member", "Oldest Family Member\Oldest Family Member.csproj", "{B9309D99-6408-4A14-8CB6-B876B5433193}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateModifier", "DateModifier\DateModifier.csproj", "{9831EF5E-A50D-4EE8-B187-CE765D65E7E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E78418F4-C914-4BBC-A4D7-9D9AB27BE649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E78418F4-C914-4BBC-A4D7-9D9AB27BE649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E78418F4-C914-4BBC-A4D7-9D9AB27BE649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E78418F4-C914-4BBC-A4D7-9D9AB27BE649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9309D99-6408-4A14-8CB6-B876B5433193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9309D99-6408-4A14-8CB6-B876B5433193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9309D99-6408-4A14-8CB6-B876B5433193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9309D99-6408-4A14-8CB6-B876B5433193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9831EF5E-A50D-4EE8-B187-CE765D65E7E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9831EF5E-A50D-4EE8-B187-CE765D65E7E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9831EF5E-A50D-4EE8-B187-CE765D65E7E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9831EF5E-A50D-4EE8-B187-CE765D65E7E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
