@@ -1,0 +1,6 @@
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\RawData\bin\Debug\RawData.exe.config
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\RawData\bin\Debug\RawData.exe
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\RawData\bin\Debug\RawData.pdb
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\RawData\obj\Debug\RawData.csprojResolveAssemblyReference.cache
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\RawData\obj\Debug\RawData.exe
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\RawData\obj\Debug\RawData.pdb

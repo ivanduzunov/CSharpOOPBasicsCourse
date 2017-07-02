@@ -1,0 +1,6 @@
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\CarSalesman\bin\Debug\CarSalesman.exe.config
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\CarSalesman\bin\Debug\CarSalesman.exe
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\CarSalesman\bin\Debug\CarSalesman.pdb
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\CarSalesman\obj\Debug\CarSalesman.csprojResolveAssemblyReference.cache
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\CarSalesman\obj\Debug\CarSalesman.exe
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\CarSalesman\obj\Debug\CarSalesman.pdb
