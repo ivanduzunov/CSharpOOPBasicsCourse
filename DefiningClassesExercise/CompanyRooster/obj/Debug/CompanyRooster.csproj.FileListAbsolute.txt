@@ -1,0 +1,6 @@
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\CompanyRooster\bin\Debug\CompanyRooster.exe.config
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\CompanyRooster\bin\Debug\CompanyRooster.exe
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\CompanyRooster\bin\Debug\CompanyRooster.pdb
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\CompanyRooster\obj\Debug\CompanyRooster.csprojResolveAssemblyReference.cache
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\CompanyRooster\obj\Debug\CompanyRooster.exe
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\CompanyRooster\obj\Debug\CompanyRooster.pdb

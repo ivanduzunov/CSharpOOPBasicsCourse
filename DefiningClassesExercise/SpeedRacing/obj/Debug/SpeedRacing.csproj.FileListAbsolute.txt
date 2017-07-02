@@ -1,0 +1,6 @@
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\SpeedRacing\bin\Debug\SpeedRacing.exe.config
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\SpeedRacing\bin\Debug\SpeedRacing.exe
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\SpeedRacing\bin\Debug\SpeedRacing.pdb
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\SpeedRacing\obj\Debug\SpeedRacing.csprojResolveAssemblyReference.cache
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\SpeedRacing\obj\Debug\SpeedRacing.exe
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\DefiningClassesExercise\SpeedRacing\obj\Debug\SpeedRacing.pdb

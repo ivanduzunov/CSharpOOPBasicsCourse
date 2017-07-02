@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{800468E1-74EC-4AB8-9F5C-E5DC1D2C6488}</ProjectGuid>
+    <ProjectGuid>{3D892B97-6A14-4C75-9C47-9EB82C24EB35}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CompanyRoster</RootNamespace>
-    <AssemblyName>CompanyRoster</AssemblyName>
+    <RootNamespace>SpeedRacing</RootNamespace>
+    <AssemblyName>SpeedRacing</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Car.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
