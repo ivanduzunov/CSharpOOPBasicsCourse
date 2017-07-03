@@ -1,0 +1,5 @@
+c:\users\mihail\documents\visual studio 2017\Projects\Encapsulation\SalaryIncrease\bin\Debug\SalaryIncrease.exe.config
+c:\users\mihail\documents\visual studio 2017\Projects\Encapsulation\SalaryIncrease\bin\Debug\SalaryIncrease.exe
+c:\users\mihail\documents\visual studio 2017\Projects\Encapsulation\SalaryIncrease\bin\Debug\SalaryIncrease.pdb
+c:\users\mihail\documents\visual studio 2017\Projects\Encapsulation\SalaryIncrease\obj\Debug\SalaryIncrease.exe
+c:\users\mihail\documents\visual studio 2017\Projects\Encapsulation\SalaryIncrease\obj\Debug\SalaryIncrease.pdb

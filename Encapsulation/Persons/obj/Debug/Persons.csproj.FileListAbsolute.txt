@@ -1,0 +1,6 @@
+c:\users\mihail\documents\visual studio 2017\Projects\Encapsulation\Persons\bin\Debug\Persons.exe.config
+c:\users\mihail\documents\visual studio 2017\Projects\Encapsulation\Persons\bin\Debug\Persons.exe
+c:\users\mihail\documents\visual studio 2017\Projects\Encapsulation\Persons\bin\Debug\Persons.pdb
+c:\users\mihail\documents\visual studio 2017\Projects\Encapsulation\Persons\obj\Debug\Persons.csprojResolveAssemblyReference.cache
+c:\users\mihail\documents\visual studio 2017\Projects\Encapsulation\Persons\obj\Debug\Persons.exe
+c:\users\mihail\documents\visual studio 2017\Projects\Encapsulation\Persons\obj\Debug\Persons.pdb
