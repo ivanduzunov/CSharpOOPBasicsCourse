@@ -1,0 +1,6 @@
+c:\users\mihail\documents\visual studio 2017\Projects\EncapsulationExercise\01.ClassBox\bin\Debug\01.ClassBox.exe.config
+c:\users\mihail\documents\visual studio 2017\Projects\EncapsulationExercise\01.ClassBox\bin\Debug\01.ClassBox.exe
+c:\users\mihail\documents\visual studio 2017\Projects\EncapsulationExercise\01.ClassBox\bin\Debug\01.ClassBox.pdb
+c:\users\mihail\documents\visual studio 2017\Projects\EncapsulationExercise\01.ClassBox\obj\Debug\01.ClassBox.csprojResolveAssemblyReference.cache
+c:\users\mihail\documents\visual studio 2017\Projects\EncapsulationExercise\01.ClassBox\obj\Debug\01.ClassBox.exe
+c:\users\mihail\documents\visual studio 2017\Projects\EncapsulationExercise\01.ClassBox\obj\Debug\01.ClassBox.pdb
