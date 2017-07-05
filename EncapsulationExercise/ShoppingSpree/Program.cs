@@ -45,7 +45,7 @@ namespace ShoppingSpree
                 }
                 catch (ArgumentException e)
                 {
-                    Console.WriteLine(e.Message);
+                    continue;
                 }
             }
 
@@ -71,7 +71,7 @@ namespace ShoppingSpree
                 }
                 catch (Exception e)
                 {
-                    continue;
+                    
                 }
 
 

@@ -27,7 +27,7 @@ namespace ShoppingSpree
             }
             set
             {
-                if (string.IsNullOrWhiteSpace(value) || string.IsNullOrWhiteSpace(value) || value == null)
+                if (string.IsNullOrWhiteSpace(value))
                 {
                     throw new ArgumentException("Name cannot be empty");
                 }
