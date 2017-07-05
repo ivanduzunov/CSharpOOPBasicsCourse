@@ -1,0 +1,6 @@
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\EncapsulationExercise\ShoppingSpree\bin\Debug\ShoppingSpree.exe.config
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\EncapsulationExercise\ShoppingSpree\bin\Debug\ShoppingSpree.exe
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\EncapsulationExercise\ShoppingSpree\bin\Debug\ShoppingSpree.pdb
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\EncapsulationExercise\ShoppingSpree\obj\Debug\ShoppingSpree.csprojResolveAssemblyReference.cache
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\EncapsulationExercise\ShoppingSpree\obj\Debug\ShoppingSpree.exe
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\EncapsulationExercise\ShoppingSpree\obj\Debug\ShoppingSpree.pdb
