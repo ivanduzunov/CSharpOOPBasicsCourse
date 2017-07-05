@@ -29,7 +29,7 @@ namespace _01.ClassBox
             {
                 if (value <= 0)
                 {
-                    throw new ArgumentException("Lenght cannot be zero or negative.");
+                    throw new ArgumentException("Length cannot be zero or negative.");
                 }
                 this.lenght = value;
             }
