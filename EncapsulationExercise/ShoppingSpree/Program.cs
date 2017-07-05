@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,6 +30,7 @@ namespace ShoppingSpree
                 catch (ArgumentException e)
                 {
                     Console.WriteLine(e.Message);
+                    return;
                 }
             }
             var productsInput = Console.ReadLine().Split(new[] { ";" }, StringSplitOptions.RemoveEmptyEntries);
@@ -46,6 +48,7 @@ namespace ShoppingSpree
                 catch (ArgumentException e)
                 {
                     Console.WriteLine(e.Message);
+                    return;
                 }
             }
 
@@ -88,6 +91,7 @@ namespace ShoppingSpree
                     Console.WriteLine($"{person.Name} - Nothing bought");
                 }
             }
+            
         }
     }
 }

@@ -15,7 +15,7 @@ namespace ShoppingSpree
         public Product(string name, decimal cost)
         {
             this.Name = name;
-            this.cost = cost;
+            this.Cost = cost;
         }
 
         public string Name
@@ -35,7 +35,10 @@ namespace ShoppingSpree
             get { return this.cost; }
             set
             {
-                
+                if (value < 0)
+                {
+                    throw new ArgumentException("Money cannot be negative");
+                }   
                 this.cost = value;
             }
         }
