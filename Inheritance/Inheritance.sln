@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Single Inheritance", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Hierarchical Inheritance", "03. Hierarchical Inheritance\03. Hierarchical Inheritance.csproj", "{EB5477B1-B699-4837-A313-1F2302CD626E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random List", "Random List\Random List.csproj", "{F97DBF18-6F14-4EA8-85E9-F46F20472082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack of Strings", "Stack of Strings\Stack of Strings.csproj", "{8249C0AC-5C6D-499B-8506-8464F827E73F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{EB5477B1-B699-4837-A313-1F2302CD626E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB5477B1-B699-4837-A313-1F2302CD626E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB5477B1-B699-4837-A313-1F2302CD626E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F97DBF18-6F14-4EA8-85E9-F46F20472082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F97DBF18-6F14-4EA8-85E9-F46F20472082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F97DBF18-6F14-4EA8-85E9-F46F20472082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F97DBF18-6F14-4EA8-85E9-F46F20472082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8249C0AC-5C6D-499B-8506-8464F827E73F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8249C0AC-5C6D-499B-8506-8464F827E73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8249C0AC-5C6D-499B-8506-8464F827E73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8249C0AC-5C6D-499B-8506-8464F827E73F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
