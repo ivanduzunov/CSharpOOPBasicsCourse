@@ -8,6 +8,7 @@ namespace Mankind
 {
     public class Program
     {
+        // 86/100
         public static void Main(string[] args)
         {
             var studentInput = Console.ReadLine().Split(new[] { " " }, StringSplitOptions.RemoveEmptyEntries);
