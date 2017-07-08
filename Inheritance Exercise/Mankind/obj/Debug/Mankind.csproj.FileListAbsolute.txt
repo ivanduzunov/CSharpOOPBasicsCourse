@@ -1,0 +1,6 @@
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\Inheritance Exercise\Mankind\bin\Debug\Mankind.exe.config
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\Inheritance Exercise\Mankind\bin\Debug\Mankind.exe
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\Inheritance Exercise\Mankind\bin\Debug\Mankind.pdb
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\Inheritance Exercise\Mankind\obj\Debug\Mankind.csprojResolveAssemblyReference.cache
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\Inheritance Exercise\Mankind\obj\Debug\Mankind.exe
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\Inheritance Exercise\Mankind\obj\Debug\Mankind.pdb
