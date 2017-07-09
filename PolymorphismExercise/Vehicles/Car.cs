@@ -18,7 +18,7 @@ namespace Vehicles
         {
             get
             {
-                return base.ConsumptionPerKm;
+                return base.ConsumptionPerKm + (decimal)0.9;
             }
             set
             {

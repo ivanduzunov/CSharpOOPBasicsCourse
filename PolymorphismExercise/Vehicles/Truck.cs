@@ -11,14 +11,14 @@ namespace Vehicles
         public Truck(decimal fuelQuantity, decimal consumption)
             : base(fuelQuantity, consumption)
         {
-            
+
         }
 
         public override decimal ConsumptionPerKm
         {
             get
             {
-                return base.ConsumptionPerKm;
+                return base.ConsumptionPerKm + (decimal)1.6;
             }
             set
             {
