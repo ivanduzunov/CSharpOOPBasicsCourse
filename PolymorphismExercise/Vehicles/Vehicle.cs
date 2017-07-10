@@ -8,32 +8,32 @@ namespace Vehicles
 {
     public class Vehicle
     {
-        private decimal fuelQuantity;
-        private decimal consumptionPerKm;
+        private double fuelQuantity;
+        private double consumptionPerKm;
 
-        public Vehicle(decimal fuelQuantity, decimal consumption)
+        public Vehicle(double fuelQuantity, double consumption)
         {
             this.FuelQuantity = fuelQuantity;
             this.consumptionPerKm = consumption;
         }
 
-        public  decimal FuelQuantity
+        public double FuelQuantity
         {
             get { return fuelQuantity; }
             set { fuelQuantity = value; }
         }
-        public virtual decimal ConsumptionPerKm
+        public virtual double ConsumptionPerKm
         {
             get { return consumptionPerKm; }
             set { consumptionPerKm = value; }
         }
 
-        public virtual void Refill(decimal fuel)
+        public virtual void Refill(double fuel)
         {
             
         }
 
-        public  void PullOutFuel(decimal fuel)
+        public  void PullOutFuel(double fuel)
         {
             this.FuelQuantity -= fuel;
         }

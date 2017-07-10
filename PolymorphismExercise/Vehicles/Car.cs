@@ -8,15 +8,15 @@ namespace Vehicles
 {
     public class Car : Vehicle
     {
-        public Car(decimal fuelQuantity, decimal consumption)
+        public Car(double fuelQuantity, double consumption)
             : base(fuelQuantity, consumption)
         {
-            
+
         }
 
-        public override decimal ConsumptionPerKm => base.ConsumptionPerKm + (decimal)0.9;
+        public override double ConsumptionPerKm => base.ConsumptionPerKm + 0.9;
 
-        public override void Refill(decimal fuel)
+        public override void Refill(double fuel)
         {
             this.FuelQuantity += fuel;
         }

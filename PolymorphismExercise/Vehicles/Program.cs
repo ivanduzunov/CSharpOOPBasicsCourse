@@ -13,8 +13,8 @@ namespace Vehicles
             var carInput = Console.ReadLine().Split();
             var truckInput = Console.ReadLine().Split();
 
-            Vehicle car = new Car(decimal.Parse(carInput[1]), decimal.Parse(carInput[2]));
-            Vehicle truck = new Truck(decimal.Parse(truckInput[1]), decimal.Parse(truckInput[2]));
+            Vehicle car = new Car(double.Parse(carInput[1]), double.Parse(carInput[2]));
+            Vehicle truck = new Truck(double.Parse(truckInput[1]), double.Parse(truckInput[2]));
 
             int n = int.Parse(Console.ReadLine());
 
@@ -27,7 +27,7 @@ namespace Vehicles
                     switch (command[1])
                     {
                         case "Car":
-                            var neededFuel = decimal.Parse(command[2]) * car.ConsumptionPerKm;
+                            var neededFuel = double.Parse(command[2]) * car.ConsumptionPerKm;
 
                             if (neededFuel > car.FuelQuantity)
                             {
@@ -41,7 +41,7 @@ namespace Vehicles
                             break;
 
                         case "Truck":
-                            var needed = decimal.Parse(command[2]) * truck.ConsumptionPerKm;
+                            var needed = double.Parse(command[2]) * truck.ConsumptionPerKm;
 
                             if (needed > truck.FuelQuantity)
                             {
@@ -60,11 +60,11 @@ namespace Vehicles
                     switch (command[1])
                     {
                         case "Car":
-                            car.Refill(decimal.Parse(command[2]));
+                            car.Refill(double.Parse(command[2]));
                             break;
 
                         case "Truck":
-                            truck.Refill(decimal.Parse(command[2]));
+                            truck.Refill(double.Parse(command[2]));
                             break;
                     }
                 }
