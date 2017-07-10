@@ -35,7 +35,7 @@ namespace Vehicles
                             }
                             else
                             {
-                                Console.WriteLine($"Car travelled {command[2]} km");
+                                Console.WriteLine($"Car travelled {double.Parse(command[2])} km");
                                 car.PullOutFuel(neededFuel);
                             }
                             break;
@@ -49,7 +49,7 @@ namespace Vehicles
                             }
                             else
                             {
-                                Console.WriteLine($"Truck travelled {command[2]} km");
+                                Console.WriteLine($"Truck travelled {double.Parse(command[2])} km");
                                 truck.PullOutFuel(needed);
                             }
                             break;
