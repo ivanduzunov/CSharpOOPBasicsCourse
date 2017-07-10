@@ -8,23 +8,27 @@ namespace Vehicles
 {
     public class Truck : Vehicle
     {
-        public Truck(decimal fuelQuantity, decimal consumption, decimal tankCapacity)
+        public Truck(double fuelQuantity, double consumption, double tankCapacity)
             : base(fuelQuantity, consumption, tankCapacity)
         {
 
         }
 
-        public override decimal ConsumptionPerKm
+        public override double ConsumptionPerKm
         {
             get
             {
-                return base.ConsumptionPerKm + (decimal)1.6;
+                return base.ConsumptionPerKm + 1.6;
             }
-    
+
         }
-        public override void Refill(decimal fuel)
+        public override void Refill(double fuel)
         {
-            this.FuelQuantity += fuel * 0.95m;
+            if (fuel <= 0)
+            {
+                throw new ArgumentException("Fuel must be a positive number");
+            }
+            this.FuelQuantity += fuel * 0.95;
         }
     }
 }

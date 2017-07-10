@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using VehiclesExtention;
 
 namespace Vehicles
 {
@@ -10,11 +11,13 @@ namespace Vehicles
     {
         public static void Main(string[] args)
         {
-            var carInput = Console.ReadLine().Split();
-            var truckInput = Console.ReadLine().Split();
+            var carInput = Console.ReadLine().Split(new[] { " " }, StringSplitOptions.RemoveEmptyEntries);
+            var truckInput = Console.ReadLine().Split(new[] { " " }, StringSplitOptions.RemoveEmptyEntries);
+            var busInput = Console.ReadLine().Split(new[] { " " }, StringSplitOptions.RemoveEmptyEntries);
 
-            Vehicle car = new Car(decimal.Parse(carInput[1]), decimal.Parse(carInput[2]));
-            Vehicle truck = new Truck(decimal.Parse(truckInput[1]), decimal.Parse(truckInput[2]));
+            Vehicle car = new Car(double.Parse(carInput[1]), double.Parse(carInput[2]), double.Parse(carInput[3]));
+            Vehicle truck = new Truck(double.Parse(truckInput[1]), double.Parse(truckInput[2]), double.Parse(truckInput[3]));
+            Bus bus = new Bus(double.Parse(busInput[1]), double.Parse(busInput[2]), double.Parse(busInput[3]), false);
 
             int n = int.Parse(Console.ReadLine());
 
@@ -22,56 +25,98 @@ namespace Vehicles
             {
                 var command = Console.ReadLine().Split(new[] { " " }, StringSplitOptions.RemoveEmptyEntries);
 
-                if (command[0] == "Drive")
+                if (command[0] == "Drive" || command[0] == "DriveEmpty")
                 {
-                    switch (command[1])
+                    try
                     {
-                        case "Car":
-                            var neededFuel = decimal.Parse(command[2]) * car.ConsumptionPerKm;
+                        switch (command[1])
+                        {
+                            case "Car":
+                                var neededFuel = double.Parse(command[2]) * car.ConsumptionPerKm;
 
-                            if (neededFuel > car.FuelQuantity)
-                            {
-                                Console.WriteLine($"Car needs refueling");
-                            }
-                            else
-                            {
-                                Console.WriteLine($"Car travelled {command[2]} km");
-                                car.PullOutFuel(neededFuel);
-                            }
-                            break;
+                                if (neededFuel > car.FuelQuantity)
+                                {
+                                    Console.WriteLine($"Car needs refueling");
+                                }
+                                else
+                                {
+                                    Console.WriteLine($"Car travelled {double.Parse(command[2])} km");
+                                    car.PullOutFuel(neededFuel);
+                                }
+                                break;
 
-                        case "Truck":
-                            var needed = decimal.Parse(command[2]) * truck.ConsumptionPerKm;
+                            case "Truck":
+                                var needed = double.Parse(command[2]) * truck.ConsumptionPerKm;
 
-                            if (needed > truck.FuelQuantity)
-                            {
-                                Console.WriteLine($"Truck needs refueling");
-                            }
-                            else
-                            {
-                                Console.WriteLine($"Truck travelled {command[2]} km");
-                                truck.PullOutFuel(needed);
-                            }
-                            break;
+                                if (needed > truck.FuelQuantity)
+                                {
+                                    Console.WriteLine($"Truck needs refueling");
+                                }
+                                else
+                                {
+                                    Console.WriteLine($"Truck travelled {double.Parse(command[2])} km");
+                                    truck.PullOutFuel(needed);
+                                }
+                                break;
+                            case "Bus":
+                                if (command[0] == "DriveEmpty")
+                                {
+                                    bus.BusIsEmpty = true;
+                                }
+                                else
+                                {
+                                    bus.BusIsEmpty = false;
+                                }
+
+                                var neededF = double.Parse(command[2]) * bus.ConsumptionPerKm;
+
+                                if (neededF > bus.FuelQuantity)
+                                {
+                                    Console.WriteLine($"Bus needs refueling");
+                                }
+                                else
+                                {
+                                    Console.WriteLine($"Bus travelled {double.Parse(command[2])} km");
+                                    bus.PullOutFuel(neededF);
+                                }
+                                break;
+
+                        }
+                    }
+                    catch (ArgumentException e)
+                    {
+                        Console.WriteLine(e.Message);
                     }
                 }
                 else
                 {
-                    switch (command[1])
+                    try
                     {
-                        case "Car":
-                            car.Refill(decimal.Parse(command[2]));
-                            break;
+                        switch (command[1])
+                        {
+                            case "Car":
+                                car.Refill(double.Parse(command[2]));
+                                break;
 
-                        case "Truck":
-                            truck.Refill(decimal.Parse(command[2]));
-                            break;
+                            case "Truck":
+                                truck.Refill(double.Parse(command[2]));
+                                break;
+
+                            case "Bus":
+                                bus.Refill(double.Parse(command[2]));
+                                break;
+                        }
+                    }
+                    catch (ArgumentException e)
+                    {
+                        Console.WriteLine(e.Message);
                     }
                 }
             }
 
             Console.WriteLine($"Car: {car.FuelQuantity:f2}");
             Console.WriteLine($"Truck: {truck.FuelQuantity:f2}");
+            Console.WriteLine($"Bus: {bus.FuelQuantity:f2}");
         }
     }
 }

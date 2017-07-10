@@ -1,0 +1,6 @@
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\PolymorphismExercise\VehiclesExtention\bin\Debug\VehiclesExtention.exe.config
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\PolymorphismExercise\VehiclesExtention\bin\Debug\VehiclesExtention.exe
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\PolymorphismExercise\VehiclesExtention\bin\Debug\VehiclesExtention.pdb
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\PolymorphismExercise\VehiclesExtention\obj\Debug\VehiclesExtention.exe
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\PolymorphismExercise\VehiclesExtention\obj\Debug\VehiclesExtention.pdb
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\PolymorphismExercise\VehiclesExtention\obj\Debug\VehiclesExtention.csprojResolveAssemblyReference.cache

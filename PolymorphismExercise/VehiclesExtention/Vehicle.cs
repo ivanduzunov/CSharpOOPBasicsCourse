@@ -8,41 +8,49 @@ namespace Vehicles
 {
     public class Vehicle
     {
-        private decimal fuelQuantity;
-        private decimal consumptionPerKm;
-        private decimal tankCapacity;
+        private double fuelQuantity;
+        private double consumptionPerKm;
+        private double tankCapacity;
 
-        public Vehicle(decimal fuelQuantity, decimal consumption, decimal tankCapacity)
+        public Vehicle(double fuelQuantity, double consumption, double tankCapacity)
         {
             this.FuelQuantity = fuelQuantity;
             this.consumptionPerKm = consumption;
-            this.TankCapacity = tankCapacity;
+            this.tankCapacity = tankCapacity;
         }
 
-        public decimal FuelQuantity
+        public double FuelQuantity
         {
             get { return fuelQuantity; }
-            set { fuelQuantity = value; }
-        }       
-        public virtual decimal ConsumptionPerKm
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentException("Fuel must be a positive number");
+                }
+                fuelQuantity = value;
+            }
+        }
+        public virtual double ConsumptionPerKm
         {
             get { return consumptionPerKm; }
             set { consumptionPerKm = value; }
         }
-        public decimal TankCapacity
+        public virtual double TankCapacity
         {
             get { return this.tankCapacity; }
             set { this.tankCapacity = value; }
         }
 
-        public virtual void Refill(decimal fuel)
+        public virtual void Refill(double fuel)
         {
 
         }
 
-        public void PullOutFuel(decimal fuel)
+        public void PullOutFuel(double fuel)
         {
             this.FuelQuantity -= fuel;
         }
+
     }
 }
