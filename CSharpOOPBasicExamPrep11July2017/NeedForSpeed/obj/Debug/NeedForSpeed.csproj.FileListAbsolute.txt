@@ -1,0 +1,6 @@
+C:\Users\Mihail\documents\visual studio 2017\Projects\CSharpOOPBasicExamPrep11July2017\NeedForSpeed\bin\Debug\NeedForSpeed.exe.config
+C:\Users\Mihail\documents\visual studio 2017\Projects\CSharpOOPBasicExamPrep11July2017\NeedForSpeed\bin\Debug\NeedForSpeed.exe
+C:\Users\Mihail\documents\visual studio 2017\Projects\CSharpOOPBasicExamPrep11July2017\NeedForSpeed\bin\Debug\NeedForSpeed.pdb
+C:\Users\Mihail\documents\visual studio 2017\Projects\CSharpOOPBasicExamPrep11July2017\NeedForSpeed\obj\Debug\NeedForSpeed.csprojResolveAssemblyReference.cache
+C:\Users\Mihail\documents\visual studio 2017\Projects\CSharpOOPBasicExamPrep11July2017\NeedForSpeed\obj\Debug\NeedForSpeed.exe
+C:\Users\Mihail\documents\visual studio 2017\Projects\CSharpOOPBasicExamPrep11July2017\NeedForSpeed\obj\Debug\NeedForSpeed.pdb
