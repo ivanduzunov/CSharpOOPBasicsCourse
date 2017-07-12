@@ -12,22 +12,33 @@ public class Program
 
     public static void Main(string[] args)
     {
-       
-        string expectedOutputTest2 = "Dragon - 1000\r\n" + "1. BMW M3 235PP - $50";
-
-
-        
 
         CarManager manager = new CarManager();
-        manager.Register(1, "Performance", "BMW", "M3", 1992, 200, 5, 100, 100);
-        Console.WriteLine(manager.Check(1));
-        Console.WriteLine();      
-        manager.Open(1, "Casual", 1000, "Dragon", 100);
-        manager.Participate(1,1);
-        var result = manager.Start(1);
-        Console.WriteLine(result);
-        Console.WriteLine();
-        Console.WriteLine(expectedOutputTest2);
+        var input = "";
+
+        while ((input = Console.ReadLine()) != "Cops Are Here")
+        {
+            var tokens = input.Split(new[] { " " }, StringSplitOptions.RemoveEmptyEntries);
+
+            switch (tokens[0])
+            {
+                case "register":
+                    int id = int.Parse(tokens[1]);
+                    var carType = tokens[2];
+                    string brand = tokens[3];
+                    string model = tokens[4];
+                    int yearOfProduction = int.Parse(tokens[5]);
+                    int horsepower = int.Parse(tokens[6]);
+                    int acceleration = int.Parse(tokens[7]);
+                    int suspension = int.Parse(tokens[8]);
+                    int durability = int.Parse(tokens[9]);
+                    manager.Register(id, carType, brand, model, yearOfProduction, horsepower, acceleration, suspension, durability);
+                    break;
+            }
+
+        }
+        
+
     }
 
 }

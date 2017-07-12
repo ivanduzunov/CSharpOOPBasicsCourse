@@ -13,18 +13,11 @@ public class PerformanceCar : Car
         : base(brand, model, yearOfProduction, horsepower, acceleration, suspension, durability)
     {
         this.AddOns = new List<string>();
+        this.Horsepower += (base.Horsepower * 50) / 100;
+        this.Suspension -= (base.Suspension * 25) / 100;
     }
 
-    public override int Horsepower
-    {
-        get { return base.Horsepower += (base.Horsepower * 50) / 100; }
-        set => base.Horsepower = value;
-    }
-    public override int Suspension
-    {
-        get { return base.Suspension -= (base.Suspension * 25) / 100; }
-        set => base.Suspension = value;
-    }
+    
     public List<string> AddOns { get { return this.addOns; } set { this.addOns = value; } }
     public override void TuneUp(int tuneIndex, string addOn)
     {
