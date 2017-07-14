@@ -53,6 +53,7 @@
     <Compile Include="Models\Nation.cs" />
     <Compile Include="Models\WaterBender.cs" />
     <Compile Include="Models\WaterMonument.cs" />
+    <Compile Include="NationsBuilder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

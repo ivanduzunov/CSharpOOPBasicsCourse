@@ -1,0 +1,6 @@
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\CSharp;OOPBasicsExamSample12July2017\Avatar\obj\Debug\Avatar.csprojResolveAssemblyReference.cache
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\CSharp;OOPBasicsExamSample12July2017\Avatar\bin\Debug\Avatar.exe.config
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\CSharp;OOPBasicsExamSample12July2017\Avatar\bin\Debug\Avatar.exe
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\CSharp;OOPBasicsExamSample12July2017\Avatar\bin\Debug\Avatar.pdb
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\CSharp;OOPBasicsExamSample12July2017\Avatar\obj\Debug\Avatar.exe
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\CSharp;OOPBasicsExamSample12July2017\Avatar\obj\Debug\Avatar.pdb
