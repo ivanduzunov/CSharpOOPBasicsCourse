@@ -1,0 +1,6 @@
+c:\users\mihail\documents\visual studio 2017\Projects\CSharpOOPBasicsExam16July2017\Minedraft\obj\Debug\Minedraft.csprojResolveAssemblyReference.cache
+c:\users\mihail\documents\visual studio 2017\Projects\CSharpOOPBasicsExam16July2017\Minedraft\bin\Debug\Minedraft.exe.config
+c:\users\mihail\documents\visual studio 2017\Projects\CSharpOOPBasicsExam16July2017\Minedraft\bin\Debug\Minedraft.exe
+c:\users\mihail\documents\visual studio 2017\Projects\CSharpOOPBasicsExam16July2017\Minedraft\bin\Debug\Minedraft.pdb
+c:\users\mihail\documents\visual studio 2017\Projects\CSharpOOPBasicsExam16July2017\Minedraft\obj\Debug\Minedraft.exe
+c:\users\mihail\documents\visual studio 2017\Projects\CSharpOOPBasicsExam16July2017\Minedraft\obj\Debug\Minedraft.pdb
