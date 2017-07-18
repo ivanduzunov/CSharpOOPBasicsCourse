@@ -137,7 +137,7 @@ public class DraftManager
         sb.AppendLine($"A day has passed.");
         sb.AppendLine($"Energy Provided: {dayEnergy}");
         sb.AppendLine($"Plumbus Ore Mined: {oreMined}");
-        return sb.ToString();
+        return sb.ToString().Trim();
     }
     public string Mode(List<string> arguments)
     {

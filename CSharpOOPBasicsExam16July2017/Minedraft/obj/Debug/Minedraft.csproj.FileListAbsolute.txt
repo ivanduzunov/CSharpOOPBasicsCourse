@@ -4,3 +4,9 @@ c:\users\mihail\documents\visual studio 2017\Projects\CSharpOOPBasicsExam16July2
 c:\users\mihail\documents\visual studio 2017\Projects\CSharpOOPBasicsExam16July2017\Minedraft\bin\Debug\Minedraft.pdb
 c:\users\mihail\documents\visual studio 2017\Projects\CSharpOOPBasicsExam16July2017\Minedraft\obj\Debug\Minedraft.exe
 c:\users\mihail\documents\visual studio 2017\Projects\CSharpOOPBasicsExam16July2017\Minedraft\obj\Debug\Minedraft.pdb
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\CSharpOOPBasicsExam16July2017\Minedraft\bin\Debug\Minedraft.exe.config
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\CSharpOOPBasicsExam16July2017\Minedraft\bin\Debug\Minedraft.exe
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\CSharpOOPBasicsExam16July2017\Minedraft\bin\Debug\Minedraft.pdb
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\CSharpOOPBasicsExam16July2017\Minedraft\obj\Debug\Minedraft.csprojResolveAssemblyReference.cache
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\CSharpOOPBasicsExam16July2017\Minedraft\obj\Debug\Minedraft.exe
+C:\Users\Mihail\Documents\Visual Studio 2017\Projects\CSharpOOPBasicsCourse\CSharpOOPBasicsExam16July2017\Minedraft\obj\Debug\Minedraft.pdb
