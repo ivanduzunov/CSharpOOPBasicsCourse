@@ -19,11 +19,11 @@ public class Program
             switch (inputArgs[0])
             {
                 case "RegisterHarvester":
-                    Console.WriteLine(dm.RegisterHarvester(inputArgs));
+                    Console.WriteLine(dm.RegisterHarvester(inputArgs.Skip(1).ToList()));
 
                     break;
                 case "RegisterProvider":
-                    Console.WriteLine(dm.RegisterProvider(inputArgs));
+                    Console.WriteLine(dm.RegisterProvider(inputArgs.Skip(1).ToList()));
                     break;
 
                 case "Day":
@@ -31,11 +31,11 @@ public class Program
                     break;
 
                 case "Check":
-                    Console.WriteLine(dm.Check(inputArgs));
+                    Console.WriteLine(dm.Check(inputArgs.Skip(1).ToList()));
                     break;
 
                 case "Mode":
-                    Console.WriteLine(dm.Mode(inputArgs));
+                    Console.WriteLine(dm.Mode(inputArgs.Skip(1).ToList()));
                     break;
             }
         }

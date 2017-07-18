@@ -55,20 +55,20 @@ public class DraftManager
         var toReturn = string.Empty;
         try
         {
-            if (arguments[1] == "Sonic")
+            if (arguments[0] == "Sonic")
             {
 
                 Harvester harvester =
-                    new SonicHarvester(arguments[2], double.Parse(arguments[3]), double.Parse(arguments[4]), int.Parse(arguments[5]));
+                    new SonicHarvester(arguments[1], double.Parse(arguments[2]), double.Parse(arguments[3]), int.Parse(arguments[4]));
                 Harvesters.Add(harvester);
-                toReturn = $"Successfully registered Sonic Harvester - {arguments[2]}";
+                toReturn = $"Successfully registered Sonic Harvester - {arguments[1]}";
             }
             else
             {
                 Harvester harvester =
-                    new HammerHarvester(arguments[2], double.Parse(arguments[3]), double.Parse(arguments[4]));
+                    new HammerHarvester(arguments[1], double.Parse(arguments[2]), double.Parse(arguments[3]));
                 Harvesters.Add(harvester);
-                toReturn = $"Successfully registered Hammer Harvester - {arguments[2]}";
+                toReturn = $"Successfully registered Hammer Harvester - {arguments[1]}";
             }
         }
         catch (ArgumentException e)
@@ -83,17 +83,17 @@ public class DraftManager
         var toreturn = string.Empty;
         try
         {
-            if (arguments[1] == "Solar")
+            if (arguments[0] == "Solar")
             {
-                Provider provider = new SolarProvider(arguments[2], double.Parse(arguments[3]));
+                Provider provider = new SolarProvider(arguments[1], double.Parse(arguments[2]));
                 Providers.Add(provider);
-                toreturn = $"Successfully registered Solar Provider - {arguments[2]}";
+                toreturn = $"Successfully registered Solar Provider - {arguments[1]}";
             }
             else
             {
-                Provider provider = new PressureProvider(arguments[2], double.Parse(arguments[3]));
+                Provider provider = new PressureProvider(arguments[1], double.Parse(arguments[2]));
                 Providers.Add(provider);
-                toreturn = $"Successfully registered Pressure Provider - {arguments[2]}";
+                toreturn = $"Successfully registered Pressure Provider - {arguments[1]}";
             }
         }
         catch (Exception e)
@@ -142,7 +142,7 @@ public class DraftManager
     public string Mode(List<string> arguments)
     {
         var result = string.Empty;
-        switch (arguments[1])
+        switch (arguments[0])
         {
             case "Half":
                 currentMode = "Half";
@@ -160,8 +160,8 @@ public class DraftManager
     {
         var toreturn = string.Empty;
 
-        var provider = providers.Where(p => p.Id == arguments[1]).FirstOrDefault();
-        var harvester = harvesters.Where(p => p.Id == arguments[1]).FirstOrDefault();
+        var provider = providers.Where(p => p.Id == arguments[0]).FirstOrDefault();
+        var harvester = harvesters.Where(p => p.Id == arguments[0]).FirstOrDefault();
 
         if (provider != null)
         {
@@ -177,7 +177,7 @@ public class DraftManager
         }
         else
         {
-            return $"No element found with id - {arguments[1]}";
+            return $"No element found with id - {arguments[0]}";
         }
     }
     public string ShutDown()
